@@ -1,7 +1,6 @@
-/* 산술 연산 */
+// 산술 연산
 #include <stdio.h>
-int main()
-{
+int main() {
   int a, b;
   a = 10;
   b = 3;
@@ -14,10 +13,9 @@ int main()
 }
 
 
-//주의 할점
+// 주의 할점
 #include <stdio.h>
-int main()
-{
+int main() {
   int a, b;
   a = 10;
   b = 3;
@@ -29,12 +27,11 @@ int main()
 }
 
 
-//3.3333 값을 내기 위해선
+//  3.3333 값을 내기 위해선
 #include <stdio.h>
-int main()
-{
+int main() {
   int a;
-  double b; // 나
+  double b;
 
   a = 10;
   b = 3;
@@ -44,10 +41,9 @@ int main()
 }
 
 
-/* 대입 연산자   */
+// 대입 연산자
 #include <stdio.h>
-int main()
-{
+int main() {
   int a = 3; // int = a; a = 3; 을 줄여서 썼다
   a = a + 3;
   printf("a 의 값은 : %d \n", a); // a의 값은 : 6
@@ -55,10 +51,9 @@ int main()
 }
 
 
-/* 더하기 1 을 하는 방법  */
+// 더하기 1 을 하는 방법
 #include <stdio.h>
-int main()
-{
+int main() {
   int a = 1, b = 1, c = 1, d = 1;
 
   a = a + 1;
@@ -79,10 +74,9 @@ int main()
   return 0;
 }
 
-/* prefix, postfix */
+// prefix, postfix
 #include <stdio.h>
-int main()
-{
+int main() {
   int a = 1;
 
   printf("++a : %d \n", ++a); // ++a : 2 
@@ -123,8 +117,7 @@ int main()
 
 /* 비트 연산 */
 #include <stdio.h>
-int main()
-{
+int main() {
   int a = 0xAF;  // 10101111
   int b = 0xB5;  // 10110101
 

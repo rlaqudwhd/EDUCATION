@@ -1,8 +1,7 @@
 변수 선언하기
 #include <stdio.h>
 
-int main()
-{
+int main() {
    int a; // a라는 변수를 사용하겠다고 컴파일러 에게 알리는 것 
    a = 10; // a에 10을 집어 넣는 다는 뜻이다
    printf("a의 값은 : %d 이다\n", a); // %d는 a의 값을 10진수로 출력하라 라는 뜻이다
@@ -11,8 +10,7 @@ int main()
 
 
 #include <stdio.h>
-int main() 
-{
+int main() {
   int a;
   a = 127;
   printf("a 의 값은 %d 진수로 %o 입니다. \n", 8, a); // %o는 a의 값을 8진수로 출력하라는 뜻이다
@@ -23,8 +21,7 @@ int main()
 
 
 #include <stdio.h>
-int main()
-{
+int main() {
   float a = 3.141592f; //float형 변수에 뒤에 f를 붙이지 않을 경우 double 형으로 인식할 가능성이 있어서 붙이는 것이다
   double b = 3.141592;
   printf("a : %f \n", a); // %
@@ -34,8 +31,7 @@ int main()
 
 
 #include <stdio.h>
-int main()
-{
+int main() {
   float a = 3.141592f;
   double b = 3.141592;
   int c = 123;
